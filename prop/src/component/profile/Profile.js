@@ -29,13 +29,5 @@ export const ImageChildren = ({ children }) => {
         </>
     )
 };
-Profile.defaultProps = {
-    fullName: "Lassaad Tajouri",
-}
-Profile.defultProps = {
-    fullname: PropTypes.string,
-    bio: PropTypes.string,
-    profession: PropTypes.string,
-    children: PropTypes.element.isRequired
-};
+
 export default Profile;

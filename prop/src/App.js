@@ -11,7 +11,7 @@ const App = () => {
       backgroundcolor: "red", position: "relative",
       display: "block", border: "2px solid black", borderRadius: "20px"
     }}>
-      <Profile fullName='Tajouri Lassad' bio="Now I am studying fullstackjava" profession="Ingenieur" hundleName={hundleName} />
+      <Profile fullName='Tajouri Lassad' bio="Now I am studying fullstackjs" profession="Ingenieur" hundleName={hundleName} />
       <ImageChildren>
         Image Children
       </ImageChildren>
