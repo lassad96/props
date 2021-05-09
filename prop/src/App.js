@@ -1,17 +1,20 @@
-
 import './App.css';
-import profile from './component/profile/Profile';
-import imageslt from './imageslt.jpg';
+import Profile, { ImageChildren } from './component/profile/Profile';
 
 const App = () => {
-  const hundleName =(x)=>{
-    alert(profile for:$(x))
+  const hundleName = (fullName) => {
+    alert(fullName)
   }
-  return(
-    <div style={{textAlign:"center", backgroundcolor:"gray", position:"relative", display:"block", border:"2px solid black", borderRadius:"20px"}}>
-      <profile bio="Now I am studying fullstackjava" profession="Ingenieur" hundleName={hundleName}>
-        <img src={imageslt} alt=' my photo' />
-      </profile>
+  return (
+    <div style={{
+      textAlign: "center",
+      backgroundcolor: "red", position: "relative",
+      display: "block", border: "2px solid black", borderRadius: "20px"
+    }}>
+      <Profile fullName='Tajouri Lassad' bio="Now I am studying fullstackjava" profession="Ingenieur" hundleName={hundleName} />
+      <ImageChildren>
+        Image Children
+      </ImageChildren>
     </div>
   )
 }
